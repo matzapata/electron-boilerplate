@@ -50,7 +50,7 @@ app.whenReady().then(() => {
     optimizer.watchWindowShortcuts(window)
   })
 
-  // IPC test
+  // TODO: here register exposed functions
   ipcMain.on('ping', () => console.log('pong'))
 
   createWindow()
